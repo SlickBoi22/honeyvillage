@@ -1,0 +1,25 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "Honey village API Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlickBoi22/honeyvillage.git"
+  },
+  "keywords": [
+    "HVillage",
+    "Honey",
+    "Village"
+  ],
+  "author": "Jetray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlickBoi22/honeyvillage/issues"
+  },
+  "homepage": "https://github.com/SlickBoi22/honeyvillage#readme"
+}
