@@ -1,13 +1,11 @@
-const https = require('https')
+const https = require('http')
 const fs = require('fs')
-const zlib = require("zlib"); 
 
-const port = 443
+const port = 80
 const ip = '127.0.0.1'
 const cachePath = './gamedata'
 const options = {
-    key: fs.readFileSync('cert.key'),
-    cert: fs.readFileSync('cert.pem')
+
 }
 
 function handlerAuthCheck(req, res) {
@@ -30,40 +28,9 @@ function handlerGamedataMap(req, res) {
         console.log(`serving ${json.map}.tmx using cached file`)
         fs.createReadStream(path).pipe(res)
     } else {
-
-let response
-let text
-easyreq = `{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMWZRaDkxNGp2WFNDIiwidXNlcl9uYW1lIjoiY2llbjE4Nzc0OTYiLCJwYXNzd29yZCI6IldOUTlXUzlFIiwiaWF0IjoxNzIzOTUxNDI4LCJleHAiOjE3MjQwMzc4Mjh9.2LB4m8Zp-fTO9GsD3Z9Zp4Uh9nCtdRdSPHddnAFsUIw","scenario":"04_fantasy","version":"14","map":"${json.map}"}`
-
-fetch(upstreamURL, {
-  method: "POST",
-  body: easyreq,
-  headers: {
-    "Content-type": "application/json; charset=utf-8"
-  }
-})
-  .then(
-    response => response.text()
-  ).then(
-    text => { 
-
-fs.closeSync(fs.openSync(path, 'w'));
-var writeStream = fs.createWriteStream(path);
-writeStream.write(text);
-writeStream.end();
-
-}).then(
-ez => { 
-
-setTimeout(function() {
-      if (fs.existsSync(path)) {
-        console.log(`serving ${json.map}.tmx using cached file`)
-        fs.createReadStream(path).pipe(res)
-    }
-}, 2000);
-
-});
-
+      console.log(`Failed to find ${json.map}.tmx on the local server. Private message me on f95zone with this error. My username is Jetray22`)
+      console.log(`Defaulting to starter map to prevent a game crash.`)
+      fs.createReadStream(`${cachePath}/${json.scenario}/${json.version}/map/0010001.tmx`).pipe(res)
     }
 }
 
