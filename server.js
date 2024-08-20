@@ -1,7 +1,7 @@
 const https = require('http')
 const fs = require('fs')
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 const ip = '127.0.0.1'
 const cachePath = './gamedata'
 const options = {
@@ -85,7 +85,7 @@ https.createServer(options, (req, res) => {
         }
       }
     } 
-}).listen(port, ip)
+}).listen(port)
 
 console.log(`server listening on ${ip}:${port}`)
 
