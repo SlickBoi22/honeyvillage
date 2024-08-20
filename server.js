@@ -86,7 +86,7 @@ https.createServer(options, (req, res) => {
         }
       }
     } 
-}).listen(port, ip)
+})
 
 console.log(`server listening on ${ip}:${port}`)
 
