@@ -1,7 +1,7 @@
 const https = require('http')
 const fs = require('fs')
 
-const port = 80
+const port = process.env.PORT || 3000;
 const ip = '127.0.0.1'
 const cachePath = './gamedata'
 const options = {
