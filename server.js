@@ -1,12 +1,12 @@
-const https = require('http')
+const https = require('https')
 const fs = require('fs')
 
-const port = 80
+const port = 443
 const ip = '127.0.0.1'
 const cachePath = './gamedata'
 const options = {
-  /*  key: fs.readFileSync('Certificates/cert.key'),
-    cert: fs.readFileSync('Certificates/cert.pem')  */
+    key: fs.readFileSync('Certificates/cert.key'),
+    cert: fs.readFileSync('Certificates/cert.pem')
 }
 
 function handlerAuthCheck(req, res) {
