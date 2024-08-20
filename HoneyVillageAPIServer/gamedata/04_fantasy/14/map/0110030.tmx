@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-up" width="28" height="20" tilewidth="96" tileheight="96" infinite="0" nextlayerid="100" nextobjectid="50">
+    <tileset firstgid="1" source="tileset/2_ground.tsx"/>
+    <tileset firstgid="1765" source="tileset/5_interior1.tsx"/>
+    <tileset firstgid="3529" source="tileset/4_house1.tsx"/>
+    <layer id="93" name="int" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJztkNENQDAURd9XawGMg3EwDoZBMA6CHdwBevNC+kVPcpLzdftSkUDAP4cROeFl3O17N7YiCUytu9/ewXYzmMOCNLtDg+2WsII1aXaHBtttYAs70uwODbY7wRkupNkdGmy3j0QGOEbuZndoaLtP++/vrfjzDe7WTwe+xQ20zIU2
+  </data>
+    </layer>
+    <layer id="94" name="in2" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo4D6gIeTPDly7TLDYyZIjpp2gsxLQDKPk4uBgYsLwU8g4B5SAci8LiTzjIF2mSDZ14XmHkoByLwtSObFAu2KQ7JvC5p7KAUg8+4hmdcOtKsDyb57aO6hFNwjwixi1IyCwQEEORgYhDjoZ5810C4bOto3CnADAHV1Dx8=
+  </data>
+    </layer>
+    <layer id="95" name="in3" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDAVwgxu/2HIgewUWNeQCJh78YheBdl0iw75goJ4QIA5F06uDxT5sYmFAfeEk2FsLVFsHxPVkhk0DUF8jFcN1FIyCUUAdAADnEQoD
+  </data>
+    </layer>
+    <layer id="96" name="in4" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBWgykN9M/9wMzBwg8wl02wOoL5/3MSrVwOqNwViLTLtMwLq06BBOIyCUTAKhhYAAB1CA5Q=
+  </data>
+    </layer>
+    <layer id="99" name="4_hashigo" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCXwgZeB4SMv/eyT4mNgkOajn32jYBSMglFADAAAeLMCTQ==
+  </data>
+    </layer>
+    <layer id="80" name="wall" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjETwmI02GJ99tPDDqH3D1z5S0hul6ZNY91LLrFFAOQAAuU0y+Q==
+  </data>
+    </layer>
+    <layer id="87" name="front" width="28" height="20">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYWgAACMAAAQ==
+  </data>
+    </layer>
+    <objectgroup id="37" name="objects">
+        <properties>
+            <property name="BGM" value=""/>
+            <property name="bg_back" value="0"/>
+            <property name="bg_front" value="-1"/>
+            <property name="defaultCharaMax" type="int" value="0"/>
+            <property name="defaultCharaRnd" type="float" value="0"/>
+            <property name="safe" value="true"/>
+        </properties>
+        <object id="22" name="gate0" type="gate" x="1248" y="1440" width="192" height="96">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="0110017"/>
+                <property name="data2" value="gate0"/>
+                <property name="enemy_action" value="true"/>
+                <property name="if_false" value=""/>
+                <property name="if_true" value=""/>
+            </properties>
+        </object>
+        <object id="49" name="gate1" type="gate" x="1248" y="960" width="192" height="96">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="0110016"/>
+                <property name="data2" value="gate1"/>
+                <property name="detail" value=""/>
+                <property name="direction" value=""/>
+                <property name="tag" value=""/>
+                <property name="enemy_action" value="true"/>
+                <property name="disp_name" value=""/>
+                <property name="disp_name_type" value=""/>
+                <property name="disp_name_value" value=""/>
+                <property name="if_true" value=""/>
+                <property name="if_false" value=""/>
+                <property name="damaged_talk" value=""/>
+                <property name="creampied_talk" value=""/>
+                <property name="dead_talk" value=""/>
+                <property name="depth" value=""/>
+                <property name="depthFront" value="0"/>
+                <property name="depthBack" value="0"/>
+                <property name="mainEvent" value="0"/>
+                <property name="objectHP" value="0"/>
+                <property name="objectCoin" value="0"/>
+                <property name="objectHeart" value="0"/>
+                <property name="objectItemId" value="0"/>
+                <property name="obAnim" value=""/>
+                <property name="obAnimO" value=""/>
+                <property name="obAnimOF" value=""/>
+            </properties>
+        </object>
+    </objectgroup>
+</map>

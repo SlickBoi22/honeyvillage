@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-up" width="50" height="34" tilewidth="96" tileheight="96" infinite="0" nextlayerid="109" nextobjectid="123">
+ <tileset firstgid="1" source="tileset/0_enemy.tsx"/>
+ <tileset firstgid="1765" source="tileset/2_ground.tsx"/>
+ <tileset firstgid="3529" source="tileset/3_green.tsx"/>
+ <tileset firstgid="5293" source="tileset/1_object.tsx"/>
+ <tileset firstgid="7057" source="tileset/4_house1.tsx"/>
+ <tileset firstgid="8821" source="tileset/7_dungeon1.tsx"/>
+ <layer id="78" name="2_base" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztlNEJwzAMRPXnzNBmnKSjNx0n6QSR/5yjsjDGIpQ7EFwkGU7wiAhFUdR/aEsiH613uvpcdxLmw6yH1ldrB78777bgOzEfZn1OIrPWY7r6XLV3R/AdmA+zrlovrQX84rzL35HCfJi1ZxYpj6ueWaQ8rnpmkSJX/qz2T/41K3vWjuVHctV6f9mzdiw/kqvW+8uetWP5kVy13l/2rB3LkytyRa7IFbkiV+SKXJErckWuyFUUVyc1xkQa
+  </data>
+ </layer>
+ <layer id="106" name="3_treebg" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt0scNAkEMRuGpYYbYDLEZcmiFHFohh1YIu4QWeBVgwckr+Unf6b/4YOcsy7J+q+Wda6ODLnroe3nT1oS7pphhjgWWXt60teOuPQ444oSzlzdtRdwV44EnXnh7edNWKjiXRgZZ5JAP8qatAncVUUIZFVSDvGmrxl11NNBEC+0gb9oacNcQI4wxwTTIm7ZW3LXGBlvssA/ypq0Ld11xwx0R4iBv2krS73wrSb/zrST9jmVZlmVZlmVZ1j99AJucW9g=
+  </data>
+ </layer>
+ <layer id="108" name="2_b" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztzrkJADAQBLGNrv92/YGvCeNEgsknAYA3RiWzW93uTv0+AgAAAAB+uDjpBQY=
+  </data>
+ </layer>
+ <layer id="107" name="7_d" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztz8VRRQEURMFXuEMMsMUdAsEdAsG+4BII7hAI7hAHvSUAire4p6r3M0kSpbXl+iTJkCVHnhVWWWOdDTbZYpsdduv/e/nv9uzZ54BDjjjmhFPOOOeCS6645iZlP27tueOeBx554pkXXnnjnQ8++eI7ZT8KGpKkkCKKKaGUMsqpoJIqqqmhlrqG/17+u0Z7mmimhVbaaKeDTrropode+uhP2Y8BewYZYpgRRhljnAkmmWKaGWaZS9mPeXsWWGSJZTJkyZFnhVXWWGeDzZT9iKIoiqIoiqIoiqIoiqLob/oBD4s+4A==
+  </data>
+ </layer>
+ <layer id="100" name="2_w3" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztldsOwiAMhlHv4Enw8DSoe3I8PI22FyaDNGM0Zejsl3RpQruuS/4fYxRFWTsPa8wN4m7T/GnLvZHR04qtgwfExqX5zpV7X7a+pxVHmL2HOLg0P834Js/oacUVZp8hLi7NhxnfFBg9ijJFJHyup19xQa/KfQ79itqvJl/6X3jC59CvqP1q8qW9OxA+h35F7VeT9/TuMdR+Nfm/ezdXdzGrl9RoLMylzri6Qz2P6yU1iu+emkudcXXns3pJjfrCXOqMq7uQ1UtqNBTmtvSCz05roefdLErHu1mSb7ybOejdrCiKovwSbwnmXoY=
+  </data>
+ </layer>
+ <layer id="101" name="2_w4" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAADgZxqQAAE=
+  </data>
+ </layer>
+ <layer id="80" name="2_w" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztz8sNgDAMg2GfADXLQLfhMTp0FjJBmwtqhf5PipSDD7YEAAAAAACAr91JelI7VwKZniaTZmvnlkCmp9X7bYGOefAdh/c7/Xar/9fgOwAA//cCNC8H+Q==
+  </data>
+ </layer>
+ <layer id="103" name="2_w5" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt08kNgEAMQ1EDt6QTlm5YOmfphhQQpLkNI/0nWfLROUQCAAD4h8ukO3Ja3h+rvbBM51Ifked98NoLy0yxc46MnvelkTu22LlHVs/70cgdQAv4LQAAAABfXrHODyo=
+  </data>
+ </layer>
+ <layer id="56" name="2_g" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztV20OwiAM5dc8CFNPM5yn2dTTqPOQ6kysGUsqgfEhspH0JS95P3Bt4bUIYwQCgUAgEEbcC8YewCewl7pcDVwDN5K9su5VzJ35N86Q4wV4BXZSC8kdsJbslHW31dyZ29FAji3wADwCTxnkrANXfLXNtI5K8dU+0zpy9BXNq+H3un3w0f/cD+7hK47qxWdo0iLhDPGZVxWqF5+hSbcJZ4jPvGpQvfgMTbpMOEN85lWIr8b1MX2l61NdHqY+LQN8hc/p8/0Ys6ByiD2lRYCv8P7UDnFczqxxiD2l2x98JeR3bHFcZgF3iD2lY/jKFsdlFujuQR8dw1e2OCneCPiuCemvpfx3w3dNSH8t5U2A75qQ/lrKmwD3V0if5fA+JhBywxtQStP6
+  </data>
+ </layer>
+ <layer id="84" name="2_cp" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztlv9qwjAQx/OX9QEU7dRXGTh/7FWE2VpfZeA29Q0VrJsvsG8wgVCql7QltnIf+NITjuTucpcoBMMwDMMwFIeWEEfo1Hp0JOVYBEJ8QMvg0ZGUo4P4e1C/4Xm8Iv4x9NbwPLiv6gX3Vb1w6asUb8wZ+lX6M35nbf29eHqXXPoqhM8LNICm0Aya37ClzxAaeTpnl76aGHHuoB9oe8PWeb17yuMT+2ygL4v9IlVnmxpTvv02zrd9/fomVHW2qTHlG6qzLdJ3ef8J0zuzmrXlbKxU31NMDN+8tWQOccG+k3dTN3M36bpRc6vtgbIpIsM3b71Y5VnkPPJmQdctJuZ2q3xkDIlDXyXEuvuK7gFdN5deWVfsWwUn7JMG1y+Fee9S86TfGV/vhwuR0de28+Tr/XDh22KGsnZV/c8wzPPyD0TJcOI=
+  </data>
+ </layer>
+ <layer id="104" name="2_w6" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt0jcOgDAQRNEtSMJ3IZ2GdHLSWZjCSLSujMV/0u9nZZsBAAAAAIA/2Gqz3XeoU1117FXhMmeW+wpVqsrFXhWu0ebW16leDQneMWrz5JvVotYE73je4P0eKf4rAAC+6gZHHwrC
+  </data>
+ </layer>
+ <layer id="79" name="3_tree" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1kdSQkEUheE3NVtgXIfZgXEdBoKKCoZVGAgqKhjWYUYFwzrMqGDYgv+EWdtWQ1W/1xan6pvdqr53cqot6//E47IsL3zwYwKTmELAVfq8roR5O4IoYljDOjYQF+ylOq8rB7x9iCMc4wSnOENKsJfqvK7c8fY9HvCIJzzjBVnBXqrzulLhtqxKVKEaNahFHerdpc/rShtvt6MDnehCN3rQK9hLdV5XRnh7FGMYhwde+OAX7KU6rytLvL2MFawijAiiiAn2+mv+t052al+LIutkp/a1KLJOdmpfiyLrZKf2tSiyTnZqX4si6+Ri+9qOfpB1crF9bUc/yDpZtd8LMakfZDGpH2QxqR9kcep/TjVO/c+ppth+KKccuxKkt0OYwzwWsGhQlxeSYOckdrCLPewbeEeanTO4wjVucGvgHTl2zuMDn/jCt4F3NNDbjWhCM1rQamCX97FzPwYwiCEMG3hHgJ2nMYNZBBEy8I44O29iC9tIIGngHSl2PscFLpFGxsA7suz8ije8I4e8jXf8AFcfzjA=
+  </data>
+ </layer>
+ <layer id="81" name="3_moko" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJgDAMheHO0C3VcdRx1NXMRZBSaB+Umsr/QW45pIE8GgIA4EtTDGG2WmLb3t5Wm2mz2itmU3p7O2ym0+qqmE3pBUb3zp9SFo2SVaUsUrIqfXNuBy338s6fUhYpWZW+ObcDzxn+SN+c2wEZ/n/qzXnNLvXmvN6oenPc6FiUf4Jnyj/BM+WfAABATzelsEYJ
+  </data>
+ </layer>
+ <layer id="105" name="3_tree2" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1dcRglAURdFXAxibMTZjAEMrJgytGMDQigFTC+4WGMeBN549s/7P/brGKKWU+pc8xxgfPfQxwNBJe1XyZmwOMMcCS6wsvCNkc4Q9DjjiZOEdMZvveOCJF94W3pFzjcmjgCJKKLtpr0pehc1V1FBHA00L72ixuY0OuvDgW3jHiM1jTDDFDIGFd6zZvMEWO4SILLzjzOYLrrghxt3CO5T6Jv27bKV/l63075RSSqnf9gEmOzsp
+  </data>
+ </layer>
+ <layer id="93" name="4_1" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztz7ENgDAMRNFrYInEM0DFLlAxD/OEdZiFFJEsUaQihaX/muinOksAAPyrJOlO/n7/AQDAOFvudxRn7ncUV9s9mTSbdzSl7V7qDat5R/O03Xu94TBvAAAAjPcCWxsNJQ==
+  </data>
+ </layer>
+ <layer id="74" name="wall" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztlssNwCAMQ1mg+4/UtVigQD5OYyQ/KadCEoOJOoYQQggW3uccjFh7ZteV7UM6sHi8wuyrL3Y6buI2Hd4ZxOwrxDtHRbcOBFXnmV0b6QNNxzvv1oG+j+h9V/nK68HVGs/+Cv6eSdJxrikd65yRb2xY58Tu7Kr+Jyz5M7U88xVBty+koyZPpj4qhGBgAsxYtIk=
+  </data>
+ </layer>
+ <layer id="57" name="enemy" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztl8ENwCAIRd2hXaddp91/gnokJIIoAja8xJPEfOELbSlJkiRJosNR1+ktQoGrrttbhAJPXa+3iMXs7DmofWfPQe3Qc9Frg/W13stsbVbnoVdfTz+gtK72qGa/orRa90Vp/WE81orPsnxj0vpT8XjPsv9xOeXiqT3PmQtzSN1pxo8WwBxKPMThOWMlHuo9y3u+avmIqovFHTlfYA2teKqOFt7jfIQ1jHyrRZid3nkeQeqxqP9uUo/tStT8J8kf+QA9MiEo
+  </data>
+ </layer>
+ <layer id="85" name="front" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1mdOQkEUhuFZw4w1lqVYY1mKBQRsC7GAgG0hFpBiWYgFLLEswPf/TFDIzOWe5H7J8/fmOzm5maNUkjhlSyu1jR3s6n636T0ndD/FGc4Fz3FL9zvc40HwHJ90/8I3fgTPMWaUGscEJk2/2/SeBbovYgnLgufI0D2LHDYFz1GkewllHAueo0b3OhpoCp4jSZIQSfP2bSCDLHJC38ICvY9QRAlloXNU6X2DGupoBJgjpcPvvc33XvGGd3wEmCOvw+99kDdjCMMYwWiAN6Si/e7dtd9pes9gFnOYDzBHS/vdu2u/q/RewzpSSAt401373af3AQ6RR0HAHK79XtL7CteooCpgjgFj/9dPeMYLWmgLmGPK2P+1xKwY+7+WmD1j/9cSc2Hs/1piHh3/9V+J4jaKIlHcRlGk29sorvvr9jaK6/5cb2enm9j3besrrrez003s+7b9b34Bu32Pqw==
+  </data>
+ </layer>
+ <layer id="58" name="front2" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt0llOQjEYhuGuoccBFXAnorgZlUlw2ocDOA/7EBkUBd2J83jvm3hBL5o0hJwYku9NnpvTk/ZvUmOUUkoppZRSSimllFLqr7w1poAiSlhF2f73VINXZeYa9nGAQxyN4D2azNxCG9e4QWcE7/HIzE94xgte8ebcI+53V2GvNaxjA5s2vL7lOX8sMmYcE5hEAlNRfz3ud3fMXic4xRnObXj9wnP+HDNnMI8FZLHo3CPud3fLXnfoood7G15/8Jy/xMzLWEEOeRSce4Te3bC9s9cHPvGFbxte//Gcv83MO9jFHqqoOfcIvbthm2avGSSRQjoKr896zr/kWx1XaKCJlvPfL9HvV4c=
+  </data>
+ </layer>
+ <layer id="102" name="object" width="50" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztl01uwjAQRi1BNxRYASehlKvAgkKvAgtauAv9g9LepLCBwkF4LJCiCCdjkhAjzSe9lcfjmWhmYhujUqlUqrw1qxvzBu/1vCNJpj/iX8FakIfPORcaxhThrhFv65Kzz3LJWaWSyuc+d9G5Po/KzbaW1ffo4K9r8RlcO9fn4dyC9rb5ltXcG+JvZPEZtXZUOLegvW2+pT33FjVjvmEJP/BbS8fvtbUh7i38ww72V8wjqpZdVcLPPZShAlWL3yz6Mq5eXc5sYvMALXiEtmVPHvcRlzN72DxBHwbwbNmTx33E5cwxcb/AK0xgeqP/tw/i/oQvmMMixTwu7amkvegyPyT/TWl9h30l7cW4+SG1Pa1J6zvsS98G6Uha177fmaV17fvbWFrXWv8qVbY6AAISZaA=
+  </data>
+ </layer>
+ <objectgroup id="7" name="objects">
+  <properties>
+   <property name="BGM" value="field_06"/>
+   <property name="bg_back" value="7"/>
+   <property name="bg_front" value="5"/>
+   <property name="defaultCharaMax" type="int" value="4"/>
+   <property name="defaultCharaRnd" type="float" value="0.6"/>
+   <property name="safe" value="false"/>
+  </properties>
+  <object id="84" name="gate0" type="gate" x="960" y="2496" width="288" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="0110004"/>
+    <property name="data2" value="gate3"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="121" name="gate1" type="gate" x="3840" y="1920" width="288" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="0110014"/>
+    <property name="data2" value="gate0"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="122" name="gate2" type="gate" x="1056" y="768" width="192" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="0110016"/>
+    <property name="data2" value="gate0"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

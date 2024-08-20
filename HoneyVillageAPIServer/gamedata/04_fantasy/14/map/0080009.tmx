@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-up" width="52" height="34" tilewidth="96" tileheight="96" infinite="0" nextlayerid="121" nextobjectid="153">
+ <tileset firstgid="1" source="tileset/0_enemy.tsx"/>
+ <tileset firstgid="1765" source="tileset/2_ground.tsx"/>
+ <tileset firstgid="3529" source="tileset/3_green.tsx"/>
+ <tileset firstgid="5293" source="tileset/4_house1.tsx"/>
+ <tileset firstgid="7057" source="tileset/1_object.tsx"/>
+ <tileset firstgid="8821" source="tileset/5_interior1.tsx"/>
+ <layer id="78" name="2_base" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztksENgEAMw/K7mwEYBxgdGAeYgAxxj7bYUiS/I0sAAAAAADCKo0mnd7UafnuP9xbxqUuzt/QavnqbtxfxKJ3QG71l9Cid0Bu9ZfQondAbvWX0KJ3Q2z96i/DpSP8AL6DnsQ==
+  </data>
+ </layer>
+ <layer id="80" name="2_w" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt0rENgDAQA8CUvyswDjAOsBnZICn+hZDuJHeWK7cGAABUWqK1NSlb1O+O7L17JOWM+t2Rq3fvpDxRv5tt9iN/MfsRAACAL73C5lTF
+  </data>
+ </layer>
+ <layer id="120" name="3_gr" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztzktOQjEAheFOQUTTLgUFdC/KU2UnChdQ2Isoj70o+FiH/5BRc0yYkJw/+dLBaXpvCM4555w7hjoxhC566OMO93iI+W0g7If4h/13lHsF5xgTTPGMF8xifpsLu5r6jnLvlXOBN7xjiRXWMb9thF1NfUe598H5iS12+MI3fmJ++xV2NfUd5V4phVDGCSo4RRVnKb+dC7ua+o5yr8Z5gUvU0UATVym/XQu7mvqOcu+G8xYttNFBF72U3/rCrqa+o9x75HzCECMUGGOS8ttU2NXUdw71Peecc84555xz/+sPaYmoFQ==
+  </data>
+ </layer>
+ <layer id="56" name="2_g" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztkkEOgkAQBOcEvxDhNYq+RsDXiPJIUI72hWQvkJ3LxmBV0tnZzmSSTtoMAAAAAADgfxkzs0l6S5/gnTbm5b+2E3PD481ZfJ5DbnaUSqlIOHu8Ko/Pc9JuLV2kc8LZ410deW7abaVOahLOHu/uyEPf6Bt9o2977dtDu730lF7B22/My39tJ+aGxxsceQAA4Pf4AuWYvCA=
+  </data>
+ </layer>
+ <layer id="116" name="2_bg" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt00sKgDAMhOFZtUdW8TS+DukLnI3grqBSpfwfDGQTSCCRAAAAAABvqKJUO43Txq+nea7zDr0zOFMB+/zJHKTFWZ0tUe8hb88d11sZE/V5S7l6UB7+h/8BAKAEB6vbfLM=
+  </data>
+ </layer>
+ <layer id="117" name="3_moko" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztzEEKgFAIhGEvUPG8THX/o1T3yK2i8Fy0if8DQZhhRAAAAAB85Roit90z/B+zrF/tdLqdvRmLiqx2m/o/Zlm/2ul0O3szdusfdqf6P2ZZv9rpdDt7AAAAAID/eAENeCUG
+  </data>
+ </layer>
+ <layer id="118" name="3_green" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1MdPVFEUx/EnRXD37lOqZSlKmaFYFha6uLRQZiiWhXSx/AEWqujCQrX8ARaqZaF0FP8AC9WytJc/QMXvCwticjE3w0sM5v6Sz+Zw5pxzyWQMQ0fn/4vLNAw34pGARCRhEzZjC7aa//pK9Xi41Yt8FKAQRTiAgziEw0voPdXcWoNa1KEeDTiHRpzHBYffE8K8UIQhHBGIxGqswVpTrWed5K4Oap3oQjd60Iu7uIf7eODwzmRqKUhFGtKRgUzsQpap1rNbMnuc2gQmMYVpzOAVXuMN3jq8s4xaOSpQiaOowjEcxwlTreek7HsjDGMZ/OCPAARiOYIQjBXiz3l2FrOziVozWtCKNrTjKq7huqnWc0MyO5pbYxCLOLjgRjwSkIgkIfk/KN4l2zlAbRBDGMYIRvEYTzBmqvU8lczO5tYc5CIPHniRjwIUomiB9/i68x219/iAj/iEz/iCr/hmqvV8l8w+xa2ncQZnUY0a1KIO9WhY4D12fNkpmGdhJVYhBKEIQzgihFpPpOSum9Ru4TbuoAOd6EI3etD7l/f4snMbte3YgZ1IRgpSkYZ0odaTIZn9jNpzvMBLjGMCk5jCNGYkn1vMziPUilGCUpShHBWotH97hFpPlWT2D2o/8Quz9t8tfu/gB38EINCa73di50Vql3AZV9CEZrSgFW1CraddMns9t0ZhAzYiGjGIRRxccFtz8+w4sfMhtUfoQz8GMIghDGNEqPWMSmbv4da92If9yEYOcpEHD7zW3Dw7TuzU0dHR0dHR0dHR0dHRWTr5DSUt+eo=
+  </data>
+ </layer>
+ <layer id="119" name="3_green2" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztzlVuVmEUhtEzhLY3SPW3CvNA6oYMA6kbMgykbsgwkLohw0Dqhq0JnISTnLQh+Z5k3b57R1EoFDqvMkVRlCVHngLV1FBLHVeKzm/vX6u32UAjTTTTQitttNNBJze5xW3uxPyS9l7Suux000MvffQzwCBDDDPCQx7xmCcx99PeS9qonTHGmWCSKaaZYZY55nnJK17zJuZ+2ntJW7CzyBLLrLDKGutssMkWH/nEZ77E3E97L2nbdnbYZY99DjjkiGNOOOUnv/jNn5j7ae8lrbQ4isoop4JKqsiQJUeeAtXUUEtd8dnsJe2qnWtc5wb1NNBIE8200Eob7XTQGXM/7b2k3bVzj/s8oItueuilj34GGGSIYUZi7qe9l7Sndp7xnBeMMsY4E0wyxTQzzDLHfMz9tPeS9tbOO97zgQUWWWKZFVZZY50NNtmKuZ/2XtK+2vnGd36wzQ677LHPAYccccwJpzH3095L2oWSKLrIJS5TShnlVFBJFRmy5MhTKDmbvVAoFAqFQqFQKBQK/V/9BZ194Pc=
+  </data>
+ </layer>
+ <layer id="84" name="2_cp" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztz1EJACAQBcH3eTm0jvavoyGEA5lJsJsAAAD0GZXM6q54Z92X/dEPAAAA7x1+6gD/
+  </data>
+ </layer>
+ <layer id="115" name="2_water" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztzjEKgDAMQNGsjXpIq97/CmbsIohLEd6DT0KmRAAAAAAAfLe3iKM6q/6wX232l++1jMhqqdZhjrctZ38JwJ/dmM8FDQ==
+  </data>
+ </layer>
+ <layer id="57" name="enemy" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOgDAIRFHaq+h19P5X0ZUuWQk00DTxv/WEVh2iCAAAAADgaiJ3y8/OnKVtXWTv+dmZs7TjnXk650ayM2f9RbTTVTuQNTfaaW/ecz+dydqtaKe9ec/9dGbF3dLv23O/zGf46sNol61vUrV71tmjXbbed9X/xzq7qssr7ggAINcDuwkidQ==
+  </data>
+ </layer>
+ <layer id="90" name="object" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztlUkOwjAMRXMJxvguzNyFmctQZq4CC6bTMJ2AzyISG+o0LWkWftKTYqmu7VZulRIEQRAEQeBZaaXWcAO3mo93Ou+O4zmivxM8w4vm42vg89zQ3x0+4FPz8SvwecqkVAVWoSY+Jsq743ia6K8F27BDfNwNfJ4h+hvBMZwQH08DnydCf3O4gEvi4xn2J3LcIdtcHzUMe1x7cKxlm5tFjQKefRGWyO78wUeO67uqIbcOG2R39pXj+q56yO3DAdmdfeYIfnbBdU+TYPYt1P1Jitm3rHfBPKc0+5PmP+TKr5qu36Xv+6X5D7mSdc08ZhAEQRD+yxt4rqT9
+  </data>
+ </layer>
+ <layer id="74" name="wall" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJzt0FEJACAQREEL2D+StSwgIgi6BzOwv3LP1gAAgApGXy/hhpu9eHvXU4WebHqy6cmmJ5uebKc9lcZb/hz+mfHjXz0=
+  </data>
+ </layer>
+ <layer id="85" name="front" width="52" height="34">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAACAlwEboAAB
+  </data>
+ </layer>
+ <objectgroup id="7" name="objects">
+  <properties>
+   <property name="BGM" value="field_03"/>
+   <property name="bg_back" value="5"/>
+   <property name="bg_front" value="3"/>
+   <property name="defaultCharaMax" type="int" value="8"/>
+   <property name="defaultCharaRnd" type="float" value="0.5"/>
+   <property name="safe" value="false"/>
+  </properties>
+  <object id="106" name="p1" type="position" x="2400" y="1632" width="96" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="112" name="gate0" type="gate" x="2400" y="1440" width="192" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="0080008"/>
+    <property name="data2" value="gate1"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="149" name="goblin_helpev_touch" type="touch" x="3312" y="1800" width="912" height="504">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="goblin_helpev_touch"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="150" name="goblin_helpev_default_elf" type="default" x="3048" y="2040" width="192" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="goblin_helpev_default_elf"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="151" name="goblin_battle_helpev_default_elf" type="default" x="1392" y="2016" width="192" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="goblin_battle_helpev_default_elf"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+  <object id="152" name="goblin_helpev_battle_pos" type="position" x="1776" y="2016" width="288" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value=""/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="obAnim" value=""/>
+    <property name="obAnimO" value=""/>
+    <property name="obAnimOF" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

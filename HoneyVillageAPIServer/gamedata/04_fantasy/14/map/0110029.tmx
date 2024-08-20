@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-up" width="38" height="25" tilewidth="96" tileheight="96" infinite="0" nextlayerid="108" nextobjectid="116">
+ <tileset firstgid="1" source="tileset/0_enemy.tsx"/>
+ <tileset firstgid="1765" source="tileset/2_ground.tsx"/>
+ <tileset firstgid="3529" source="tileset/3_green.tsx"/>
+ <tileset firstgid="5293" source="tileset/1_object.tsx"/>
+ <tileset firstgid="7057" source="tileset/4_house1.tsx"/>
+ <tileset firstgid="8821" source="tileset/5_interior1.tsx"/>
+ <tileset firstgid="10585" source="tileset/7_dungeon1.tsx"/>
+ <layer id="78" name="2_base" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztkbENgDAAw7K1hxTOAU4vnAMMzcwDDZItWcocSwAAAPDlKlK3Z8nar73tE7bXKjW71Kw9+5e//XXYze5he3YvOtKRjvkdB16dIRI=
+  </data>
+ </layer>
+ <layer id="80" name="5_1" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztk1EKglAQRWct88RajrUV68dEXUyBuhiDdDkV3T9FwgHhzdc9cOAwDI/5eSKEEEJi0qhIBWv1bYseOy3s1LctJuy84Ki+bfHFzht+1LctjkEkhYfg2xZn7GTwFHzb4pqI5PCS+Dbv4l28ax8l/nUBb2HuO3z8ma97OVvOYzHg7WfE98k2P/8O+VA=
+  </data>
+ </layer>
+ <layer id="102" name="5_2" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzcENgDAMQ9Hs0jmBcaDj0I4DSHgAH5IbEv9JvsSWEgEAwLcsLWJVtpbrsrfKH2fX7lC62bsue6v8cU7thjLN3nXZW+WPc2l3K4/Zuy57q/wBAPzDC1s1NIE=
+  </data>
+ </layer>
+ <layer id="103" name="5_3" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzMENgDAMQ1GzCjkB4xT2H6V4gkhpjv1Pcg62FAkAAKyYp09IR+Rdd6u6/ON2nsi77lY1/ON1vsi77gYA2M8PSssO0Q==
+  </data>
+ </layer>
+ <layer id="104" name="5_4" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzcENgEAIRFFqoVPXctRyXNtxCoCFiweT/5K5MJNgBgD40uZmQ9k9v0ebqu/8WDm0PZXL83u0qfrOj5Vb26k8nt+jTdV3fgAAgH96AS5wK3U=
+  </data>
+ </layer>
+ <layer id="74" name="wall" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1NEJACAIQMEWaP+RWqsNEhGR4A78leePawEAPzp7dl5dU3Tl6MrRlRN1VX9Px/+q3Nq5n9gFvrdCQQ==
+  </data>
+ </layer>
+ <layer id="57" name="enemy" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAADg1wAO2AAB
+  </data>
+ </layer>
+ <layer id="96" name="front" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzEEOQEAMBdC6iq5wHBwHx2GOg+Mg/OVsmjZ25L/kT5P2Z0SIiIiIiP5lUJERmfTdPdrJ3SUedAu1dzPmgiTjT+8e7eQq9GqkUXu3Ym7Ibvzp3aOdXIteh/Rq7w7ME7mMP717tEPf9wC1JCbp
+  </data>
+ </layer>
+ <layer id="85" name="front2" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzkEOQDAQheFxFV3hODgOjoPj4DgI/1bSdtOFkPclr5uZTp6ZiIiIiMj3dM6sJ4N7u8nTSJ+JzIm9rpyHG5nnTmwWsrC7ki2xV8H/klSeO7FZyM7uQc7EXjX/G9J67sRm8g83d0YR6Q==
+  </data>
+ </layer>
+ <layer id="106" name="front3" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztzscNgDAQBdE9EJqwWyB0Q2jSQDeEXpibS/AK/pPmPmYiIiIiIt+WgtlGOx2h9E128nLRTY+jryqa1dRQG0vfZB0vPQ00OvqaeJlpodXR15+81PUKqw==
+  </data>
+ </layer>
+ <layer id="107" name="front4" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRQEuwSmtgMLHuukJnTKy7/tEZD6Z41NBGYEKAXvFGavqiVTxRmu5BYUqreKNGuifGDmLthGFapHtsaQNfeqF2+UWMX/GJ0ar8whXOyHkanxityi9ku4jFc3UZGOZB8Xxd8swgBIK0ScfHgW45AcUndckzYxQMTwAASmxVjA==
+  </data>
+ </layer>
+ <layer id="86" name="object" width="38" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztkjkOQjEMRC1Bz5bc/wjQs14DetZTMI31rSHB+UvpJ1kp7PGijEgQBEEQBFOwTyIHxDHVa07InRGX1FbvsYV25+jvyD8QT1PHs19434hP+q1vmcFcUX9LndberSyyyBKxyvVd18htECl39dpTZ5R615hBP8+d1t79j9KutZt1Rmvv0n727rFoT2WK3uyJIV62mr4e4z9nTygl73v3WA372IP/nD2htPjJ6lnDPvbgP+d9+uLpx/YPgiF8AcQmVKc=
+  </data>
+ </layer>
+ <objectgroup id="7" name="objects">
+  <properties>
+   <property name="BGM" value="field_06"/>
+   <property name="bg_back" value="3"/>
+   <property name="bg_front" value="4"/>
+   <property name="defaultCharaMax" type="int" value="4"/>
+   <property name="defaultCharaRnd" type="float" value="0.6"/>
+   <property name="safe" value="false"/>
+  </properties>
+  <object id="115" name="gate0" type="gate" x="1728" y="2016" width="192" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="0110018"/>
+    <property name="data2" value="gate2"/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
