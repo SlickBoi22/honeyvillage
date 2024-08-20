@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-up" width="36" height="20" tilewidth="96" tileheight="96" infinite="0" nextlayerid="100" nextobjectid="54">
+ <tileset firstgid="1" source="tileset/2_ground.tsx"/>
+ <tileset firstgid="1765" source="tileset/5_interior1.tsx"/>
+ <tileset firstgid="3529" source="tileset/0_enemy.tsx"/>
+ <layer id="93" name="int" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzti7ENg1AMBV39zxok4wDjEPYg9MA4wDgQQTpe/y1bMlEK5JNOuuaIHMdx7sseiA74DWlfea2dR6IHfMa0NaTX2gUsYcW0hvRau4Yv2DCtIb3W7uEAR6Y1pNfaE5zhwrSG9Fq7zYjesMvS1ljxb/AT/9OO80tOD3V/zg==
+  </data>
+ </layer>
+ <layer id="94" name="in2" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYHECWg4FBjmOgXYEA7kC3eAwi94yCwQEAHYYA6w==
+  </data>
+ </layer>
+ <layer id="95" name="in3" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhC7g4GRg4ObHThAAufZTQ1AYm3AwMptyUq4EBZi4GBhYu8t0TB7QnnoBdxKiBAV2gW/QocE8H0J5OAnYRowYGwoFuiaDAPaNgFIyC4QEAIVsIRg==
+  </data>
+ </layer>
+ <layer id="96" name="in4" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwVAEtTwMDHU8tLfHH2hHABAHQnEQHewcBaNgMAMAShcC4w==
+  </data>
+ </layer>
+ <layer id="97" name="in5" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztjlkKAkEMRBt/26OI61EcddyO4jZuR1G8jeKHx/FJtxCaUSH4NykoqjtJpeKcwWAwVAMX/19fWi+b+5Z5V97zyZfWy+bKaidqZ8UtWt8vXNl5U+yVvhbahh2x58G7mex9/7toz4cZ2evDDA4U90jvGE7gVOyp1Z3Lk4w89mfo3IeZITqKvQVcwpXiHundwh3cv/LJyGADFklGEXMO6NGHmTW6ET2DoYp4AnBXJKk=
+  </data>
+ </layer>
+ <layer id="98" name="in6" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAooBzu5IRgf2IVHHqQXWf43AbPQgQAPAwMHEHPyQPiPuSEY3SyQOm4gZgXiJ0jiqlB9XFB5kN4nJLoBGVgBzTACYmMewupMgVgfhzoTqPwoGAWjYPAAAMtuDXg=
+  </data>
+ </layer>
+ <layer id="80" name="wall" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGATp4zEYYU6KXHEzIveTI0QqQGz7EqKFF+BHjzlEwCmAAANpgPBM=
+  </data>
+ </layer>
+ <layer id="87" name="front" width="36" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/hAFUBAACvAQtAAAE=
+  </data>
+ </layer>
+ <objectgroup id="37" name="objects">
+  <properties>
+   <property name="BGM" value=""/>
+   <property name="bg_back" value="0"/>
+   <property name="bg_front" value="-1"/>
+   <property name="defaultCharaMax" type="int" value="0"/>
+   <property name="defaultCharaRnd" type="float" value="0"/>
+   <property name="safe" value="false"/>
+  </properties>
+  <object id="22" name="gate1" type="gate" x="2784" y="1248" width="192" height="96">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="0120005"/>
+    <property name="data2" value="gate0"/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+   </properties>
+  </object>
+  <object id="50" name="gate0" type="gate" x="960" y="1440" width="192" height="96">
+   <properties>
+    <property name="csb" value="empty"/>
+    <property name="data" value="0120001"/>
+    <property name="data2" value="gate1"/>
+    <property name="enemy_action" value="true"/>
+    <property name="if_false" value=""/>
+    <property name="if_true" value=""/>
+   </properties>
+  </object>
+  <object id="51" name="aksana" type="chara" x="1824" y="1344" width="192" height="96">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="aksana_talk"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value="aksana"/>
+    <property name="direction" value="left"/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value="hian_warning"/>
+    <property name="if_true" value=""/>
+    <property name="mainEvent" value="0"/>
+    <property name="obAnim" value=""/>
+    <property name="obAnimO" value=""/>
+    <property name="obAnimOF" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value="aksana"/>
+   </properties>
+  </object>
+  <object id="53" name="hian_sub2_hl_default" type="default" x="1536" y="768" width="192" height="192">
+   <properties>
+    <property name="creampied_talk" value=""/>
+    <property name="csb" value="empty"/>
+    <property name="damaged_talk" value=""/>
+    <property name="data" value="hian_sub2_hl_default"/>
+    <property name="data2" value=""/>
+    <property name="dead_talk" value=""/>
+    <property name="depth" value="default"/>
+    <property name="depthBack" value="0"/>
+    <property name="depthFront" value="0"/>
+    <property name="detail" value=""/>
+    <property name="direction" value=""/>
+    <property name="disp_name" value=""/>
+    <property name="disp_name_type" value=""/>
+    <property name="disp_name_value" value=""/>
+    <property name="enemy_action" value=""/>
+    <property name="if_false" value="hian_sub2_last_battle"/>
+    <property name="if_true" value="olesya_sub2_1st_ok"/>
+    <property name="mainEvent" value="0"/>
+    <property name="obAnim" value=""/>
+    <property name="obAnimO" value=""/>
+    <property name="obAnimOF" value=""/>
+    <property name="objectCoin" value="0"/>
+    <property name="objectHP" value="0"/>
+    <property name="objectHeart" value="0"/>
+    <property name="objectItemId" value="0"/>
+    <property name="tag" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
