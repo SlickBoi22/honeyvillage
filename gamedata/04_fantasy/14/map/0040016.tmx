@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.9.1" orientation="orthogonal" renderorder="right-up" width="24" height="14" tilewidth="96" tileheight="96" infinite="0" nextlayerid="103" nextobjectid="56">
+    <tileset firstgid="1" source="tileset/2_ground.tsx"/>
+    <tileset firstgid="1765" source="tileset/5_interior1.tsx"/>
+    <tileset firstgid="3529" source="tileset/1_object.tsx"/>
+    <tileset firstgid="5293" source="tileset/4_house1.tsx"/>
+    <tileset firstgid="7057" source="tileset/7_dungeon1.tsx"/>
+    <layer id="93" name="int" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJztjLENgDAMBF3FEwDjAOMExgmMA4wDCNgBRy5SfUxJkWv+pJOeqPCVxxHdTvcCbvXoiIaJatatgFs9OqKX1rFuC9zqbeZ/lDawrgdudZ/5n6VNrBuAWz1k/jdpC6ddgVsdcUrbOe0B3OqF//ACxThJlw==
+  </data>
+    </layer>
+    <layer id="94" name="in2" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDCQQ5GBgEOKgnfnWQLNtaGj+SAYAE68Auw==
+  </data>
+    </layer>
+    <layer id="95" name="in3" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFxAJOTgYGLk7K6VEwCkbB8AAAJqEBTg==
+  </data>
+    </layer>
+    <layer id="96" name="in4" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFxAIOTuxsfOpIkTPixM7Gp44UuRhO7Gx86kiRa+PEzsanjhS5DZzY2fjUkSJ3ixM7G586UuRGwfADAExKC3E=
+  </data>
+    </layer>
+    <layer id="100" name="in7_carpet" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUkArCeRgYItBwJM9Au2oU0BsAALBwAlk=
+  </data>
+    </layer>
+    <layer id="99" name="in6" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFIwks52ZgWMGNKf4bixgIcHIxMHBxEW/+RaA5l5DMUuWBmA2isQFjoNkmJJiPDliA5rLzIOxCB7FAs+OAOB6H/YSAHlCfIR697UCzO4C4k0zzR8HQBgDiPAns
+  </data>
+    </layer>
+    <layer id="102" name="hashigo" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2DgwBURBoarIrQz/x/Q7P80NH8UjGwAABQ2A/c=
+  </data>
+    </layer>
+    <layer id="101" name="object" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo4A64DQvA8MZXgRNbfAVaOY3XgR9ikQ7ThHQI8/HwKDAh6C/kGg+SD2pekbB0AYA3jENqw==
+  </data>
+    </layer>
+    <layer id="80" name="wall" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dwg8ds1MXYzKemW0lxPzl+JMUt5OgbBcQBAPQQKA0=
+  </data>
+    </layer>
+    <layer id="87" name="front" width="24" height="14">
+        <data encoding="base64" compression="zlib">
+   eJxjYBgFxIJHMvgxjywEE1JHrvnEYlwA5j5KMS5gJksdjAskyFIH4wJdstTBo2DkAAAmiz9P
+  </data>
+    </layer>
+    <objectgroup id="37" name="objects">
+        <properties>
+            <property name="BGM" value=""/>
+            <property name="bg_back" value="0"/>
+            <property name="bg_front" value="-1"/>
+            <property name="defaultCharaMax" type="int" value="0"/>
+            <property name="defaultCharaRnd" type="float" value="0"/>
+            <property name="safe" value="true"/>
+        </properties>
+        <object id="22" name="gate0" type="gate" x="864" y="864" width="192" height="96">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="0040013"/>
+                <property name="data2" value="gate1"/>
+                <property name="enemy_action" value="false"/>
+                <property name="if_false" value=""/>
+                <property name="if_true" value=""/>
+            </properties>
+        </object>
+        <object id="55" name="gate1" type="gate" x="1536" y="768" width="192" height="96">
+            <properties>
+                <property name="csb" value="empty"/>
+                <property name="data" value="0040004"/>
+                <property name="data2" value="gate2"/>
+                <property name="enemy_action" value="false"/>
+                <property name="if_false" value=""/>
+                <property name="if_true" value=""/>
+            </properties>
+        </object>
+    </objectgroup>
+</map>
